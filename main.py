@@ -2,6 +2,7 @@ import pyautogui
 import time
 pyautogui.FAILSAFE = False
 
+#this loop will run for 3 times.
 for i in range(0, 3):
     time.sleep(5)
     pyautogui.press('j')
